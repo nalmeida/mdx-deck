@@ -1,0 +1,110 @@
+import { Head } from 'mdx-deck'
+
+import { Invert, Split, SplitRight } from 'mdx-deck/layouts'
+export { default as theme } from './theme'
+// export { swiss as theme } from 'mdx-deck/themes'
+
+<Head>
+  <title>Kanban</title>
+  {/* <meta name='twitter:card' content='summary_large_image' />
+  <meta name='twitter:site' content='@jxnblk' />
+  <meta name='twitter:title' content='My Presentation' />
+  <meta name='twitter:description' content='A really great presentation' />
+  <meta name='twitter:image' content='https://example.com/card.png' /> */}
+</Head>
+
+
+# Kanban
+
+2018-09-04 - Nicholas Almeida
+
+```notes
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+```
+
+---
+# Slide 2
+
+* fazer a coisa 1
+* fazer a coisa 2
+* fazer a coisa 4
+* fazer a coisa 5
+* fazer a coisa 6
+* fazer a coisa 7
+* fazer a coisa 8
+* fazer a coisa 9
+* fazer a coisa 10
+
+---
+# Slide 3
+---
+export default Split
+
+# coisa 1
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+---
+export default SplitRight
+
+# coisa 1
+
+![fit](http://voxnews.com.br/wp-content/uploads/2018/07/Danilo-Riedel-Nicholas-Almeida-Andr%C3%A9-e-Lucas-Grecco_-Sapient-AG2--820x394.jpg)
+
+
+---
+
+# Código
+
+```
+for (var i=0; i<10; i++) {
+    console.log(i)
+}
+```
+
+---
+
+# Link
+
+[Sapinent AG2](http://www.sapientag2.com.br/)
+
+---
+
+> "Eficiência é fazer certo as coisas. Eficácia é fazer as coisas certas"
+
+Nicholas
+
+---
+
+# Imagem
+
+![fit](http://voxnews.com.br/wp-content/uploads/2018/07/Danilo-Riedel-Nicholas-Almeida-Andr%C3%A9-e-Lucas-Grecco_-Sapient-AG2--820x394.jpg)
+
+---
+import { Image } from 'mdx-deck'
+
+<Image src='http://voxnews.com.br/wp-content/uploads/2018/07/Danilo-Riedel-Nicholas-Almeida-Andr%C3%A9-e-Lucas-Grecco_-Sapient-AG2--820x394.jpg' />
+
+---
+export default Invert
+
+# Invertido!
+
+---
+import { FullScreenCode } from 'mdx-deck/layouts'
+
+export default FullScreenCode
+
+```css
+colors: {
+    background: '#fff',
+    text:'#000',
+    link: sapientBlue,
+    // heading: '#000',
+    // blockquote: '',
+    pre: '#fff',
+    preBackground: sapientBlue,
+    code: '#fff',
+    codeBackground: sapientBlue
+},
+```
